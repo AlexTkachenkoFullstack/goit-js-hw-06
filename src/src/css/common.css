@@ -23,6 +23,7 @@ button {
   cursor: pointer;
 }
 
+/* --------TASK 3 */
 .list{
   list-style: none;
 }
@@ -38,3 +39,4 @@ button {
   width:300px;
   height: 200px;
 }
+
