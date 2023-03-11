@@ -2,7 +2,7 @@ const nameInputEl = document.querySelector("#name-input");
 const nameOutputEl = document.querySelector("#name-output");
 
 
-const handleNameInputElInput = () => {
+const handleNameInputElInput = (event) => {
     if (event.currentTarget.value === "") {
      return nameOutputEl.textContent = "Anonymous";
     }

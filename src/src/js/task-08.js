@@ -14,10 +14,10 @@
 
 const loginFormEl = document.querySelector('.login-form');
 console.log(loginFormEl.elements)
-const handleLoginFormElSubmit = () => {
+const handleLoginFormElSubmit = (event) => {
     event.preventDefault();
     if (loginFormEl.elements.email.value === '' || loginFormEl.elements.password.value === '') {
-   alert('Негодяй, заполни все поля!!!')
+   return alert('Негодяй, заполни все поля!!!')
     }
     const formWithDataToSend = {};
     formWithDataToSend.email = loginFormEl.elements.email.value;

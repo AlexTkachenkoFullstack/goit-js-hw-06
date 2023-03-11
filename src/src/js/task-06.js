@@ -15,7 +15,7 @@ const validationInputEl = document.querySelector("#validation-input")
 const handleValidationInputElBlur = () => {
     const validationInputElValueLength = validationInputEl.value.length;
     if (validationInputElValueLength !== Number(validationInputEl.dataset.length)){
-        validationInputEl.value = ''
+        
        return  validationInputEl.classList.add('invalid');
     }
     

@@ -6,7 +6,7 @@
 
 const fontSizeControlEl = document.querySelector('#font-size-control');
 const inputTextEl=document.querySelector('#text')
-const handleFontSizeControlElInput = () => {
+const handleFontSizeControlElInput = (event) => {
     event.preventDefault();
     const inputFontSizeValue = Number(fontSizeControlEl.value);
     console.log(inputFontSizeValue);
